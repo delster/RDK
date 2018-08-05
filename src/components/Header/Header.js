@@ -9,7 +9,10 @@ const Header = props => {
       <nav className="teal darken-2">
         <ul className="container">
           <li>
-            <Link to="/">Your Profile</Link>
+            <Link to="/">Login</Link>
+          </li>
+          <li>
+            <Link to="/dashboard">Your Profile</Link>
           </li>
           <li>
             <Link to="/user/1">Sample User</Link>
