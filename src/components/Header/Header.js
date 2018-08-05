@@ -12,6 +12,9 @@ const Header = props => {
           <li>
             <Link to="/match/1">Push Match 1</Link>
           </li>
+          <li>
+            <Link to="/usermatch">UserMatch></Link>
+          </li>
         </ul>
       </nav>
     </div>
