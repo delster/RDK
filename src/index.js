@@ -29,7 +29,7 @@ const store = createStore(
 
 injectTapEventPlugin();
 
-export const RUNE_ID = "12341234-1234-1234-1234-123412341234";
+export const RUNE_ID = "a61d6619-fea1-4cba-81a5-60b0491b3240";
 
 ReactDOM.render(
     <Provider store={store}>
