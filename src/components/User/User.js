@@ -1,61 +1,133 @@
-import React from "react";
+import React, { Component } from "react";
 
-const User = props => {
-  return (
-    <div>
-      <h1 className="center-align">TK the Deserter's Profile</h1>
-      <div className="center-align">
-        <button
-          className="buy-quarters-button btn waves-effect waves-light blue darken-2 white-text"
-          data-widget-type="button"
-          data-order-name="Sample docs"
-          data-order-description="Sample quarters transfer"
-          data-order-code="1"
-          data-amount="4"
-          data-button-size="medium"
-        >
-          Challenge TK for 4 Quarters
-        </button>
+import M from "materialize-css/dist/js/materialize.min.js";
+
+class User extends Component {
+  componentDidMount() {
+    const toggles = document.querySelectorAll(".collapsible");
+    M.Collapsible.init(toggles);
+  }
+
+  render() {
+    return (
+      <div>
+        <h1 className="center-align">TK the Deserter's Profile</h1>
+        <div className="center-align">
+          <button
+            className="buy-quarters-button btn waves-effect waves-light blue darken-2 white-text"
+            data-widget-type="button"
+            data-order-name="Sample docs"
+            data-order-description="Sample quarters transfer"
+            data-order-code="1"
+            data-amount="4"
+            data-button-size="medium"
+          >
+            Challenge TK for 4 Quarters
+          </button>
+        </div>
+        <section>
+          <div className="row">
+            <div className="col s6 offset-s3">
+              <h3>Pending Matches vs TK</h3>
+              <ul className="collapsible">
+                <li className="black-text">
+                  <div className="collapsible-header">
+                    <i className="material-icons">filter_drama</i>First
+                  </div>
+                  <div className="collapsible-body white">
+                    <span>Lorem ipsum dolor sit amet.</span>
+                  </div>
+                </li>
+                <li className="black-text">
+                  <div className="collapsible-header">
+                    <i className="material-icons">place</i>Second
+                  </div>
+                  <div className="collapsible-body white">
+                    <span>Lorem ipsum dolor sit amet.</span>
+                  </div>
+                </li>
+                <li className="black-text">
+                  <div className="collapsible-header">
+                    <i className="material-icons">whatshot</i>Third
+                  </div>
+                  <div className="collapsible-body white">
+                    <span>Lorem ipsum dolor sit amet.</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div className="row">
+            <div className="col s6 offset-s3">
+              <h3>Active Matches vs TK</h3>
+              <ul className="collapsible">
+                <li className="black-text">
+                  <div className="collapsible-header">
+                    <i className="material-icons">filter_drama</i>First
+                  </div>
+                  <div className="collapsible-body white">
+                    <span>Lorem ipsum dolor sit amet.</span>
+                  </div>
+                </li>
+                <li className="black-text">
+                  <div className="collapsible-header">
+                    <i className="material-icons">place</i>Second
+                  </div>
+                  <div className="collapsible-body white">
+                    <span>Lorem ipsum dolor sit amet.</span>
+                  </div>
+                </li>
+                <li className="black-text">
+                  <div className="collapsible-header">
+                    <i className="material-icons">whatshot</i>Third
+                  </div>
+                  <div className="collapsible-body white">
+                    <span>Lorem ipsum dolor sit amet.</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div className="row">
+            <div className="col s6 offset-s3">
+              <h3>Completed Matches</h3>
+              <ul className="collapsible">
+                <li className="black-text">
+                  <div className="collapsible-header">
+                    <i className="material-icons">filter_drama</i>First
+                  </div>
+                  <div className="collapsible-body white">
+                    <span>Lorem ipsum dolor sit amet.</span>
+                  </div>
+                </li>
+                <li className="black-text">
+                  <div className="collapsible-header">
+                    <i className="material-icons">place</i>Second
+                  </div>
+                  <div className="collapsible-body white">
+                    <span>Lorem ipsum dolor sit amet.</span>
+                  </div>
+                </li>
+                <li className="black-text">
+                  <div className="collapsible-header">
+                    <i className="material-icons">whatshot</i>Third
+                  </div>
+                  <div className="collapsible-body white">
+                    <span>Lorem ipsum dolor sit amet.</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
       </div>
-      <section>
-        <div className="row">
-          <div className="col s6 offset-s3">
-            <ul className="collection with-header z-depth-1 black-text">
-              <li className="collection-header center-align">
-                <h4>Pending Matches vs TK</h4>
-              </li>
-              <li className="collection-item">Alvin</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <section>
-        <div className="row">
-          <div className="col s6 offset-s3">
-            <ul className="collection with-header z-depth-1 black-text">
-              <li className="collection-header center-align">
-                <h4>Active Matches vs TK</h4>
-              </li>
-              <li className="collection-item">Alvin</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <section>
-        <div className="row">
-          <div className="col s6 offset-s3">
-            <ul className="collection with-header z-depth-1 black-text">
-              <li className="collection-header center-align">
-                <h4>Complete Matches vs TK</h4>
-              </li>
-              <li className="collection-item">Alvin</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-    </div>
-  );
-};
+    );
+  }
+}
 
 User.prototype.propTypes = {};
 
