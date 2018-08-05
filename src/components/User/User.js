@@ -32,26 +32,50 @@ class User extends Component {
               <ul className="collapsible">
                 <li className="black-text">
                   <div className="collapsible-header">
-                    <i className="material-icons">filter_drama</i>First
+                    <i className="material-icons">filter_drama</i>Rebecca
                   </div>
                   <div className="collapsible-body white">
-                    <span>Lorem ipsum dolor sit amet.</span>
+                    <span><ul>
+                      <li className="left">Points: 50
+                        </li>
+                        <li className="center-align">
+                          Quarters: 4
+                        </li>
+                        <li className="right"> 6 days ago...
+                        </li>
+                        </ul></span>
                   </div>
                 </li>
                 <li className="black-text">
                   <div className="collapsible-header">
-                    <i className="material-icons">place</i>Second
+                    <i className="material-icons">place</i>Don
                   </div>
                   <div className="collapsible-body white">
-                    <span>Lorem ipsum dolor sit amet.</span>
+                    <span><ul>
+                      <li className="left">Points: 50
+                        </li>
+                        <li className="center-align">
+                          Quarters: 4
+                        </li>
+                        <li className="right"> 6 days ago...
+                        </li>
+                        </ul></span>
                   </div>
                 </li>
                 <li className="black-text">
                   <div className="collapsible-header">
-                    <i className="material-icons">whatshot</i>Third
+                    <i className="material-icons">whatshot</i>Larry
                   </div>
                   <div className="collapsible-body white">
-                    <span>Lorem ipsum dolor sit amet.</span>
+                    <span><ul>
+                      <li className="left">Points: 50
+                        </li>
+                        <li className="center-align">
+                          Quarters: 4
+                        </li>
+                        <li className="right"> 6 days ago...
+                        </li>
+                        </ul></span>
                   </div>
                 </li>
               </ul>
@@ -65,26 +89,50 @@ class User extends Component {
               <ul className="collapsible">
                 <li className="black-text">
                   <div className="collapsible-header">
-                    <i className="material-icons">filter_drama</i>First
+                    <i className="material-icons">filter_drama</i>Harry
                   </div>
                   <div className="collapsible-body white">
-                    <span>Lorem ipsum dolor sit amet.</span>
+                    <span><ul>
+                      <li className="left">Points: 50
+                        </li>
+                        <li className="center-align">
+                          Quarters: 4
+                        </li>
+                        <li className="right"> 6 days ago...
+                        </li>
+                        </ul></span>
                   </div>
                 </li>
                 <li className="black-text">
                   <div className="collapsible-header">
-                    <i className="material-icons">place</i>Second
+                    <i className="material-icons">place</i>Steven
                   </div>
                   <div className="collapsible-body white">
-                    <span>Lorem ipsum dolor sit amet.</span>
+                    <span><ul>
+                      <li className="left">Points: 50
+                        </li>
+                        <li className="center-align">
+                          Quarters: 4
+                        </li>
+                        <li className="right"> 6 days ago...
+                        </li>
+                        </ul></span>
                   </div>
                 </li>
                 <li className="black-text">
                   <div className="collapsible-header">
-                    <i className="material-icons">whatshot</i>Third
+                    <i className="material-icons">whatshot</i>Peter
                   </div>
                   <div className="collapsible-body white">
-                    <span>Lorem ipsum dolor sit amet.</span>
+                    <span><ul>
+                      <li className="left">Points: 50
+                        </li>
+                        <li className="center-align">
+                          Quarters: 4
+                        </li>
+                        <li className="right"> 6 days ago...
+                        </li>
+                        </ul></span>
                   </div>
                 </li>
               </ul>
@@ -98,26 +146,50 @@ class User extends Component {
               <ul className="collapsible">
                 <li className="black-text">
                   <div className="collapsible-header">
-                    <i className="material-icons">filter_drama</i>First
+                    <i className="material-icons">filter_drama</i>Darth
                   </div>
                   <div className="collapsible-body white">
-                    <span>Lorem ipsum dolor sit amet.</span>
+                    <span><ul>
+                      <li className="left">Points: 50
+                        </li>
+                        <li className="center-align">
+                          Quarters: 4
+                        </li>
+                        <li className="right"> 6 days ago...
+                        </li>
+                        </ul></span>
                   </div>
                 </li>
                 <li className="black-text">
                   <div className="collapsible-header">
-                    <i className="material-icons">place</i>Second
+                    <i className="material-icons">place</i>Sarah
                   </div>
                   <div className="collapsible-body white">
-                    <span>Lorem ipsum dolor sit amet.</span>
+                    <span><ul>
+                      <li className="left">Points: 50
+                        </li>
+                        <li className="center-align">
+                          Quarters: 4
+                        </li>
+                        <li className="right"> 6 days ago...
+                        </li>
+                        </ul></span>
                   </div>
                 </li>
                 <li className="black-text">
                   <div className="collapsible-header">
-                    <i className="material-icons">whatshot</i>Third
+                    <i className="material-icons">whatshot</i>Bri
                   </div>
                   <div className="collapsible-body white">
-                    <span>Lorem ipsum dolor sit amet.</span>
+                    <span><ul>
+                      <li className="left">Points: 50
+                        </li>
+                        <li className="center-align">
+                          Quarters: 4
+                        </li>
+                        <li className="right"> 6 days ago...
+                        </li>
+                        </ul></span>
                   </div>
                 </li>
               </ul>

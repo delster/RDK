@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+// import  "./Dashboard.css";
 import M from "materialize-css/dist/js/materialize.min.js";
 
 class Dashboard extends Component {
@@ -18,26 +18,54 @@ class Dashboard extends Component {
               <ul className="collapsible">
                 <li className="black-text">
                   <div className="collapsible-header">
-                    <i className="material-icons">filter_drama</i>First
+                    <i className="material-icons">filter_drama</i>Frank
+                    {/* <button class="btn-small waves-effect waves-light" type="submit" name="action">Submit
+    <i class="material-icons right">send</i>
+                    </button> */}
                   </div>
                   <div className="collapsible-body white">
-                    <span>Lorem ipsum dolor sit amet.</span>
+                    <span><ul>
+                      <li className="left">Points: 50
+                        </li>
+                        <li className="center-align">
+                          Quarters: 4
+                        </li>
+                        <li className="right"> 6 days ago...
+                        </li>
+                        </ul>
+                    </span>
                   </div>
                 </li>
                 <li className="black-text">
                   <div className="collapsible-header">
-                    <i className="material-icons">place</i>Second
+                    <i className="material-icons">place</i>Sarah
                   </div>
                   <div className="collapsible-body white">
-                    <span>Lorem ipsum dolor sit amet.</span>
+                    <span><ul>
+                      <li className="left">Points: 50
+                        </li>
+                        <li className="center-align">
+                          Quarters: 4
+                        </li>
+                        <li className="right"> 6 days ago...
+                        </li>
+                        </ul></span>
                   </div>
                 </li>
                 <li className="black-text">
                   <div className="collapsible-header">
-                    <i className="material-icons">whatshot</i>Third
+                    <i className="material-icons">whatshot</i>TK
                   </div>
                   <div className="collapsible-body white">
-                    <span>Lorem ipsum dolor sit amet.</span>
+                    <span><ul>
+                      <li className="left">Points: 50
+                        </li>
+                        <li className="center-align">
+                          Quarters: 4
+                        </li>
+                        <li className="right"> 6 days ago...
+                        </li>
+                        </ul></span>
                   </div>
                 </li>
               </ul>
@@ -51,26 +79,50 @@ class Dashboard extends Component {
               <ul className="collapsible">
                 <li className="black-text">
                   <div className="collapsible-header">
-                    <i className="material-icons">filter_drama</i>First
+                    <i className="material-icons">filter_drama</i>Franklin
                   </div>
                   <div className="collapsible-body white">
-                    <span>Lorem ipsum dolor sit amet.</span>
+                    <span><ul>
+                      <li className="left">Points: 50
+                        </li>
+                        <li className="center-align">
+                          Quarters: 4
+                        </li>
+                        <li className="right"> 6 days ago...
+                        </li>
+                        </ul></span>
                   </div>
                 </li>
                 <li className="black-text">
                   <div className="collapsible-header">
-                    <i className="material-icons">place</i>Second
+                    <i className="material-icons">place</i>Ben
                   </div>
                   <div className="collapsible-body white">
-                    <span>Lorem ipsum dolor sit amet.</span>
+                    <span><ul>
+                      <li className="left">Points: 50
+                        </li>
+                        <li className="center-align">
+                          Quarters: 4
+                        </li>
+                        <li className="right"> 6 days ago...
+                        </li>
+                        </ul></span>
                   </div>
                 </li>
                 <li className="black-text">
                   <div className="collapsible-header">
-                    <i className="material-icons">whatshot</i>Third
+                    <i className="material-icons">whatshot</i>Matthew
                   </div>
                   <div className="collapsible-body white">
-                    <span>Lorem ipsum dolor sit amet.</span>
+                    <span><ul>
+                      <li className="left">Points: 50
+                        </li>
+                        <li className="center-align">
+                          Quarters: 4
+                        </li>
+                        <li className="right"> 6 days ago...
+                        </li>
+                        </ul></span>
                   </div>
                 </li>
               </ul>
@@ -84,26 +136,50 @@ class Dashboard extends Component {
               <ul className="collapsible">
                 <li className="black-text">
                   <div className="collapsible-header">
-                    <i className="material-icons">filter_drama</i>First
+                    <i className="material-icons">filter_drama</i>TK
                   </div>
                   <div className="collapsible-body white">
-                    <span>Lorem ipsum dolor sit amet.</span>
+                    <span><ul>
+                      <li className="left">Points: 50
+                        </li>
+                        <li className="center-align">
+                          Quarters: 4
+                        </li>
+                        <li className="right"> 6 days ago...
+                        </li>
+                        </ul></span>
                   </div>
                 </li>
                 <li className="black-text">
                   <div className="collapsible-header">
-                    <i className="material-icons">place</i>Second
+                    <i className="material-icons">place</i>Cassidy
                   </div>
                   <div className="collapsible-body white">
-                    <span>Lorem ipsum dolor sit amet.</span>
+                    <span><ul>
+                      <li className="left">Points: 50
+                        </li>
+                        <li className="center-align">
+                          Quarters: 4
+                        </li>
+                        <li className="right"> 6 days ago...
+                        </li>
+                        </ul></span>
                   </div>
                 </li>
                 <li className="black-text">
                   <div className="collapsible-header">
-                    <i className="material-icons">whatshot</i>Third
+                    <i className="material-icons">whatshot</i>John
                   </div>
                   <div className="collapsible-body white">
-                    <span>Lorem ipsum dolor sit amet.</span>
+                    <span><ul>
+                      <li className="left">Points: 50
+                        </li>
+                        <li className="center-align">
+                          Quarters: 4
+                        </li>
+                        <li className="right"> 6 days ago...
+                        </li>
+                        </ul></span>
                   </div>
                 </li>
               </ul>
