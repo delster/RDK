@@ -1,29 +1,15 @@
 import React from "react";
-// import PropTypes from "prop-types";
 
-const User = props => {
+const Dashboard = props => {
   return (
     <div>
-      <h1 className="center-align">TK the Deserter's Profile</h1>
-      <div className="center-align">
-        <button
-          className="buy-quarters-button btn waves-effect waves-light blue darken-2 white-text"
-          data-widget-type="button"
-          data-order-name="Sample docs"
-          data-order-description="Sample quarters transfer"
-          data-order-code="1"
-          data-amount="4"
-          data-button-size="medium"
-        >
-          Challenge TK for 4 Quarters
-        </button>
-      </div>
+      <h1 className="center-align">Your Profile</h1>
       <section>
         <div className="row">
           <div className="col s6 offset-s3">
             <ul className="collection with-header z-depth-1 black-text">
               <li className="collection-header center-align">
-                <h4>Pending Matches vs TK</h4>
+                <h4>Pending Matches</h4>
               </li>
               <li className="collection-item">Alvin</li>
             </ul>
@@ -35,7 +21,7 @@ const User = props => {
           <div className="col s6 offset-s3">
             <ul className="collection with-header z-depth-1 black-text">
               <li className="collection-header center-align">
-                <h4>Active Matches vs TK</h4>
+                <h4>Active Matches</h4>
               </li>
               <li className="collection-item">Alvin</li>
             </ul>
@@ -47,7 +33,7 @@ const User = props => {
           <div className="col s6 offset-s3">
             <ul className="collection with-header z-depth-1 black-text">
               <li className="collection-header center-align">
-                <h4>Complete Matches vs TK</h4>
+                <h4>Complete Matches</h4>
               </li>
               <li className="collection-item">Alvin</li>
             </ul>
@@ -58,6 +44,4 @@ const User = props => {
   );
 };
 
-User.prototype.propTypes = {};
-
-export default User;
+export default Dashboard;

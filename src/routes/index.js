@@ -2,10 +2,8 @@ import React, { Component } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Header from "../components/Header";
-import MyComponent from "../components/MyComponent";
+import Dashboard from "../components/Dashboard";
 import User from "../components/User";
-import PushMatch from "../components/PushMatch";
-import UserMatch from "../components/UserMatch";
 
 export default class Routes extends Component {
     render() {
@@ -14,10 +12,8 @@ export default class Routes extends Component {
                 <div>
                     <Header />
                     <Switch>
-                        <Route exact path="/" component={MyComponent} />
+                        <Route exact path="/" component={Dashboard} />
                         <Route path="/user/:id" component={User} />
-                        <Route path="/match/:id" component={PushMatch} />
-                        <Route path="/usermatch" component={UserMatch} />
                     </Switch>
                 </div>
             </BrowserRouter>

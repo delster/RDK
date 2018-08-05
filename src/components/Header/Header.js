@@ -1,19 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import "./Header.css";
+
 const Header = props => {
   return (
     <div>
-      <nav>
-        <ul>
+      <nav className="teal darken-2">
+        <ul className="container">
           <li>
-            <Link to="/user/1">User 1</Link>
+            <Link to="/">Your Profile</Link>
           </li>
           <li>
-            <Link to="/match/1">Push Match 1</Link>
-          </li>
-          <li>
-            <Link to="/usermatch">UserMatch></Link>
+            <Link to="/user/1">Sample User</Link>
           </li>
         </ul>
       </nav>
